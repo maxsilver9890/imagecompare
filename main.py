@@ -25,7 +25,7 @@ def main():
                 print(f"🔍 Match found: {name} (distance={distance})")
             else:
                 print(f"❌ No matching image found (closest distance={distance})")
-
+        #deregister by name only process
         # elif args.command == "deregister":
         #     deleted = deregister_image(args.name)
         #     if deleted:
